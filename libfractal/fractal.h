@@ -1,8 +1,20 @@
+/*Autheur : AMAN SINGH
+ *Version : 26/04/16
+ */
+
 #ifndef _FRACTAL_H
 #define _FRACTAL_H
 
 struct fractal {
-    /* TODO: à remplir */
+  const char *name;
+  int value;
+  int x;
+  int y;
+  int value;
+  unsigned int width;
+  unsigned int height;
+  double a;
+  double b;
 };
 
 /*

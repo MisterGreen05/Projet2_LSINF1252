@@ -1,3 +1,8 @@
+/*Autheur : AMAN SINGH
+ *Version : 26/04/16
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -112,5 +117,6 @@ int main(int argc, char* argv[]){
       }
       //for debug : printf("L'option d vaut %u (0 desactive et 1 active)\n", optionD);
       //for debut : printf("Le nombre de thread vaut %d\n", maxthreads);
+
 
 }
