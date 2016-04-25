@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "fractal.h"
 
-struct fractal *fractal_new(int width, int height, double a, double b)
+struct fractal *fractal_new(const char *name, int width, int height, double a, double b)
 {
     /* TODO */
     return NULL;
@@ -10,6 +10,12 @@ struct fractal *fractal_new(int width, int height, double a, double b)
 void fractal_free(struct fractal *f)
 {
     /* TODO */
+}
+
+const char *fractal_get_name(const struct fractal *f)
+{
+    /* TODO */
+    return NULL;
 }
 
 int fractal_get_value(const struct fractal *f, int x, int y)
