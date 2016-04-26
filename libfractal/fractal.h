@@ -7,12 +7,9 @@
 
 struct fractal {
   const char *name;
-  int value;
-  int x;
-  int y;
-  int value;
   unsigned int width;
   unsigned int height;
+  int value[0][0];
   double a;
   double b;
 };
