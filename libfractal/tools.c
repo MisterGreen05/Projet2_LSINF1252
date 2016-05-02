@@ -59,7 +59,6 @@ int write_bitmap_sdl(const struct fractal *f, const char *fname)
 
     return 0;
 }
-
 static int iter_julia(double zx, double zy, double a, double b, int it)
 {
     /* prevent infinite loop */

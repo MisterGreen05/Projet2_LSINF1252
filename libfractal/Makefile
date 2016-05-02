@@ -13,3 +13,22 @@ $(LIBFILE): $(OBJ)
 
 *.o:
 	$(CC) -o $@ -c $< $(CFLAGS)
+
+################################################################################
+#Nettoyage des fichiers .o : se deplacer a l'endroit du makefile et lancer     #
+# "make clean" via le terminal 	   					       #
+################################################################################
+
+.PHONY: clean
+
+clean:
+	rm -rf *o
+
+################################################################################
+#Nettoyage de l'exec alloc : se deplacer a l'endroit du makefile et lancer     #
+# "make mrproper" via le terminal 	   				       #
+################################################################################
+
+mrproper: clean
+	rm -rf libfractal.a
+
